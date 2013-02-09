@@ -88,8 +88,8 @@ body {
 .card {
   -webkit-perspective: 300px;
   -moz-perspective: 300px;
-  width: 56px;
-  height: 88px;
+  width: 70px;
+  height: 100px;
   position: absolute;
   -moz-transition: all .3s ease;
   -webkit-transition: all .3s ease;
@@ -144,10 +144,10 @@ body {
 /* The .button class is appled to the #install, #gamePlay, and #gameAgain buttons */
 .button {
   background: white;
-  border-radius: 5px;
-  font-size: 2em;
+  border-radius: 10px;
+  font-size: 6em;
   padding: 10px;
-  width: 150px;
+  width: 400px;
   border: 8px solid #DA4930;
   z-index: 99;
 }
@@ -155,7 +155,7 @@ body {
 /* :hover styles are applied when the user's mouse hovers over the element */
 .button:hover {
   background: #F26522 !important;
-  color: #fff;
+  color: #0B615E;
   cursor: pointer;
 }
 
